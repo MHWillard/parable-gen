@@ -1,0 +1,12 @@
+BUSINESS PARABLE GENERATOR
+This is a full stack web application that generates pithy summaries of business parables. I'm struck by how all business parables sound exactly the same so I figure it'll be simple to make something that creates one on the fly.
+
+Will probably need:
+-Node (to work with MongoDB)
+-MongoDB (I want to use this to practice full stack databases)
+-React (want to get sharper with this skill)
+-Express (to manage Node)
+
+## LOG
+5/25
+-planned out structure of app
