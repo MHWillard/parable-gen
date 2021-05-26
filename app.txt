@@ -6,7 +6,39 @@ Will probably need:
 -MongoDB (I want to use this to practice full stack databases)
 -React (want to get sharper with this skill)
 -Express (to manage Node)
+-Mocha (would really like to practice formal testing, and Jest was a little too tricky for me to understand; we'll try Mocha)
+-TypeScript (want to train further in this)
+-Bootstrap (CSS styling)
+
+POSSIBLE STRUCTURE:
+-app.js (run code, basic '/' route, render pages)
+-index.jsx (runs the react code - but might probably have to connect to a Node backend: however, React could be dropped in as a <script>?)
+-components folder (button, main app component, generated parable text)
+-routes folder? 
+-The React app (hosted on Heroku) would have to connect with a MongoDB database (also hosted on Heroku, maybe, or MongoDB Atlas for cloud)
+--React is just for the render client side; still would be within the app itself committed to Heroku
+
+/controller
+../functions
+/model
+../database
+/view
+../components
+
+STEPS:
+-set up hello world app using React and Node backend connected; we'll probably establish the NodeJS backend first, then create a seperate React app as a client that points to it
+-attach bare MongoDB to hello world app to ensure connectivity; would probably be best served doing MongoDB Atlas and connecting that way
+-set up component design and functionality to generate one of two results, touching the entire stack
+-add further options for parable generation in DB
+-optimize app with better front end design
+
 
 ## LOG
 5/25
 -planned out structure of app
+
+5/26
+-set up Express hello world
+-installed express/mongoose/dotenv/mocha/chai/typescript/cors/body-parser/axios packages
+-further planning of step by step app build approach
+NEXT: use Axios to set up router with new create-react-app and understand WHY that works

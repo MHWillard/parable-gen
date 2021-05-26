@@ -4,7 +4,11 @@
   "description": "Business parable summary generator.",
   "main": "app.js",
   "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.1",
     "chai": "^4.3.4",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mocha": "^8.4.0",
