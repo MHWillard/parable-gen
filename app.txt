@@ -42,3 +42,7 @@ STEPS:
 -installed express/mongoose/dotenv/mocha/chai/typescript/cors/body-parser/axios packages
 -further planning of step by step app build approach
 NEXT: use Axios to set up router with new create-react-app and understand WHY that works
+
+5/27
+-install axios
+-create react app: client
