@@ -28,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/MHWillard/parable-gen/issues"
   },
-  "homepage": "https://github.com/MHWillard/parable-gen#readme"
+  "homepage": "https://github.com/MHWillard/parable-gen#readme",
+  "proxy": "http://localhost:3000"
 }

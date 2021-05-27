@@ -45,4 +45,7 @@ NEXT: use Axios to set up router with new create-react-app and understand WHY th
 
 5/27
 -install axios
--create react app: client
+-create react app: client; tested to make sure it runs
+-added and exported custom component to test
+-began developing React component state designed to use axios to pull from backend; need to test
+MORE STUDY NEEDED: HTTP requests, React fundamentals review
