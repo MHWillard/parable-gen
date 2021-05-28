@@ -52,3 +52,6 @@ MORE STUDY NEEDED: HTTP requests, React fundamentals review
 
 5/28
 -set up full frontend/backend connection (watch for typos)
+-signed up for MongoDB Atlas (cloud DB) and configured for new project and data cluster.
+-installed mongodb package
+-started configure: Node connection to Atlas via Mongoose to load up sample DB
