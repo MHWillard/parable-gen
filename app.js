@@ -2,9 +2,12 @@ const express = require('express')
 const app = express()
 require('dotenv').config()
 const port = process.env.PORT
+const cors = require('cors');
+
+app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('Backend online.');
+    res.send({message: 'Backend online.'});
 });
 
 app.listen(port, () => {

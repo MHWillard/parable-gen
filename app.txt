@@ -49,3 +49,6 @@ NEXT: use Axios to set up router with new create-react-app and understand WHY th
 -added and exported custom component to test
 -began developing React component state designed to use axios to pull from backend; need to test
 MORE STUDY NEEDED: HTTP requests, React fundamentals review
+
+5/28
+-set up full frontend/backend connection (watch for typos)
