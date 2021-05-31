@@ -55,3 +55,27 @@ MORE STUDY NEEDED: HTTP requests, React fundamentals review
 -signed up for MongoDB Atlas (cloud DB) and configured for new project and data cluster.
 -installed mongodb package
 -started configure: Node connection to Atlas via Mongoose to load up sample DB
+
+5/29
+-got Mongoose setup and connected to MongoDB Atlas
+-tested connection
+-setting up Schema and model to work with test collection
+-able to connect to test collection in DB
+
+5/30
+tested MongoDB with own schema/model and adding data
+-planned how to get data from Atlas to Node backend to React frontend
+-able to successfully get Node to pull up MongoDB data object
+NEXT: need to test React's ability to pull and initially render data
+
+5/31
+-had a lot of trouble working with React's async state and updating it with data; will try using button to grab it since the parable gen will have a button
+-got state to do better BUT to make sure it doesn't reset, you want to pass the state into the parent component and then pass it down via props
+
+NEXT STEPS:
+-plot out data model for app (read how to do this in NoSQL)
+-create own Atlas collection
+-define Schema/model for it
+-test insert, delete, and read data
+-set up procedure to read data, pass to app, and render to React (grab json/pass json/map json to render for each entry in component)
+-create better outline for app structure: views, DB connection, DB functions, etc.
