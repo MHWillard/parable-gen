@@ -76,7 +76,7 @@ NEXT: need to test React's ability to pull and initially render data
 -pushed state to App component and props down into child component: still same problem, wonder if the component mount is resetting it
 -had to revamp connection to backend and frontend
 -used e.preventDefault to prevent state reversion on click event
-NEXT: work on successfully passing backend data to frontend for use
+NEXT: work on successfully passing backend data to frontend for use: use .fetch through axios
 
 NEXT STEPS:
 -plot out data model for app (read how to do this in NoSQL)
