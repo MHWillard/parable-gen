@@ -43,6 +43,7 @@ function findPerson(Person) {
   Person.findOne({age: 40}, function (err, person) {
     if (err) return console.error(err);
     console.log(person)
+    return person
   })
 }
 

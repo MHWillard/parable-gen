@@ -2,11 +2,6 @@ import React from 'react'
 
 
 class Start extends React.Component {
-
-
-    //this needs to take state and loop it back up into App component
-
-
     render() {
         return(
             <div>

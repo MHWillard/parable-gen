@@ -16,23 +16,26 @@ class App extends React.Component {
     this.reArm = this.reArm.bind(this);
 }
 
-reArm() {
+reArm(e) {
+  e.preventDefault();
   this.setState({
-      data: "test"
+      data: "test", 
+      test: "lame"
    });
 }
 
 componentDidMount() {
   axios.get('http://localhost:5000').then(res => {
-      //console.log(res.data.person);
       let dataObject = res.data.person;
-      console.log("dataObject" + dataObject);
+      //console.log("dataObject" + dataObject);
       let [firstname, lastname, age, problem, business, goal, moneygoal] = dataObject
-      console.log("name" + firstname)
-      console.log("object name" + dataObject.firstname)
-      console.log("object data firstname" + res.data.person.firstname)
+      console.log(dataObject.goal)
+      //console.log("name" + firstname)
+      //console.log("object name" + dataObject.firstname)
+      //console.log("object data firstname" + res.data.person.firstname)
       //spread person object
       //assign to each property in state
+      this.setState({data: firstname});
    });
 }
 
