@@ -84,6 +84,31 @@ NEXT: work on successfully passing backend data to frontend for use: use .fetch 
 -REMEMBER: solve a smaller problem first, break it down, then work back up to where you're stuck
 --TO FIX: we need to study how this works, need to grab a good code example to work off from and understand; also look for axios beginner guides
 
+router.get("/posts", async (req, res) => {
+	const posts = await Post.find()
+	res.send(posts)
+})
+
+router.post("/posts", async (req, res) => {
+	const post = new Post({
+		title: req.body.title,
+		content: req.body.content,
+	})
+	await post.save()
+	res.send(post)
+})
+
+const getTodos = async (req: Request, res: Response): Promise<void> => {
+  try {
+    const todos: ITodo[] = await Todo.find()
+    res.status(200).json({ todos })
+  } catch (error) {
+    throw error
+  }
+}
+
+https://www.freecodecamp.org/news/how-to-build-a-todo-app-with-react-typescript-nodejs-and-mongodb/
+
 NEXT STEPS:
 -plot out data model for app (read how to do this in NoSQL)
 -create own Atlas collection
