@@ -78,6 +78,12 @@ NEXT: need to test React's ability to pull and initially render data
 -used e.preventDefault to prevent state reversion on click event
 NEXT: work on successfully passing backend data to frontend for use: use .fetch through axios
 
+6/2
+-learning how axios pulls data when making get requests
+-having a lot of trouble figuring it out: maybe I need to drill into this area
+-REMEMBER: solve a smaller problem first, break it down, then work back up to where you're stuck
+--TO FIX: we need to study how this works, need to grab a good code example to work off from and understand; also look for axios beginner guides
+
 NEXT STEPS:
 -plot out data model for app (read how to do this in NoSQL)
 -create own Atlas collection
@@ -85,3 +91,4 @@ NEXT STEPS:
 -test insert, delete, and read data
 -set up procedure to read data, pass to app, and render to React (grab json/pass json/map json to render for each entry in component)
 -create better outline for app structure: views, DB connection, DB functions, etc.
+-set up scripts to start both backend and frontend at the same time

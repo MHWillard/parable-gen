@@ -13,9 +13,10 @@ db.once('open', function() {
 });
 
 app.get('/', (req, res) => {
-    res.send({message: 'Backend online.'});
+    let person = findPerson(Person);
+    //res.send({firstname: "karen"});
+    res.send(person);
     //use Mongoose to get data here, so React will automatically grab it and pass to render
-    return person = findPerson(Person);
 });
 
 app.listen(port, () => {
