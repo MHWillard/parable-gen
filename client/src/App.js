@@ -16,6 +16,7 @@ class App extends React.Component {
     this.reArm = this.reArm.bind(this);
 }
 
+//e = event, use it as an argument and prevent the browser's default response
 reArm(e) {
   e.preventDefault();
   this.setState({
@@ -26,16 +27,17 @@ reArm(e) {
 
 componentDidMount() {
   axios.get('http://localhost:5000').then(res => {
-      let dataObject = res.data.person;
+      console.log('GET data: ', res.data.person); 
+      //let dataObject = res.data;
       //console.log("dataObject" + dataObject);
-      let [firstname, lastname, age, problem, business, goal, moneygoal] = dataObject
-      console.log(dataObject.goal)
+      //let [firstname, lastname, age, problem, business, goal, moneygoal] = dataObject
+      //console.log(goal)
       //console.log("name" + firstname)
       //console.log("object name" + dataObject.firstname)
       //console.log("object data firstname" + res.data.person.firstname)
       //spread person object
       //assign to each property in state
-      this.setState({data: firstname});
+      //this.setState({data: firstname});
    });
 }
 
