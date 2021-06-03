@@ -12,10 +12,10 @@ db.once('open', function() {
   console.log('Connected');
 });
 
-app.get('/', (req, res) => {
-    let person = findPerson(Person);
+app.get('/', async (req, res) => {
+    let person = await findPerson(Person);
     //res.send({firstname: "karen"});
-    res.send(person);
+    res.json({person});
     //use Mongoose to get data here, so React will automatically grab it and pass to render
 });
 
