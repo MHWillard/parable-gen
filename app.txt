@@ -84,6 +84,12 @@ NEXT: work on successfully passing backend data to frontend for use: use .fetch 
 -REMEMBER: solve a smaller problem first, break it down, then work back up to where you're stuck
 --TO FIX: we need to study how this works, need to grab a good code example to work off from and understand; also look for axios beginner guides
 
+6/3
+-set up concurrent script to run frontend/backend at the same time
+-still struggling with pulling in data: I need to really get the fundamentals of promises down and ask someone for help on this bit using the code and what I'm trying to do
+-> it will pull from the MongoDB but when I load it into a new variable in the other module it returns as undefined which then passes on as undefined to the React frontend: outside of this, sending data works fine so the problem may be in the async nature of it
+# hit the docs, hit general MongoDB guides at this point to construct the basics, ask people = don't get fancy, do the basics if needed
+
 router.get("/posts", async (req, res) => {
 	const posts = await Post.find()
 	res.send(posts)

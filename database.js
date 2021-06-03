@@ -39,11 +39,11 @@ const Person = mongoose.model('person', personSchema);
 //});
 
 //look up document
-function findPerson(Person) {
-  Person.findOne({age: 40}, function (err, person) {
+async function findPerson(Person) {
+  await Person.findOne({age: 40}, function (err, person) {
     if (err) return console.error(err);
-    console.log(person)
-    return person
+    console.log('Data:', person);
+    return person;
   })
 }
 

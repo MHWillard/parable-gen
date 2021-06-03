@@ -27,8 +27,8 @@ reArm(e) {
 
 componentDidMount() {
   axios.get('http://localhost:5000').then(res => {
-      //let text = JSON.stringify(res.data.person)
-      console.log('GET data: ', res.data.person); 
+      //let text = JSON.stringify(res.data)
+      //console.log('GET data: ', text); 
       //let dataObject = res.data;
       //console.log("dataObject" + dataObject);
       //let [firstname, lastname, age, problem, business, goal, moneygoal] = dataObject
@@ -38,7 +38,7 @@ componentDidMount() {
       //console.log("object data firstname" + res.data.person.firstname)
       //spread person object
       //assign to each property in state
-      //this.setState({data: res.data.person});
+      this.setState({data: res.data});
    });
 }
 

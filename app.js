@@ -13,9 +13,13 @@ db.once('open', function() {
 });
 
 app.get('/', async (req, res) => {
-    let person = await findPerson(Person);
-    //res.send({firstname: "karen"});
-    res.json({person});
+    //build this as a promise:
+    //let person = await findPerson(Person);
+    
+    //Promise goes here:
+
+    //console.log(person)
+    //res.send(person)
     //use Mongoose to get data here, so React will automatically grab it and pass to render
 });
 

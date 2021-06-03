@@ -6,7 +6,7 @@ class Start extends React.Component {
         return(
             <div>
                 <p>Start component</p>
-                <p>Data: {this.props.data}</p>
+                <p>Data: {this.props.data.firstname}</p>
                 <p>Test: {this.props.test}</p>
                 <form onSubmit={this.props.reArm}>
                     <button type="submit">Reload</button>
