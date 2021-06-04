@@ -13,8 +13,8 @@ function Finished() {
 //call the function that then does the callback when done
 doChores('dishes', Finished);
 
-const callbackFunction = (addMe) => {
-    return addMe(2, 5);
+const callbackFunction = (callback) => {
+    return callback(2, 5);
 }
 
 const callback = (arg, arg2) => {
@@ -22,4 +22,17 @@ const callback = (arg, arg2) => {
 }
 
 const result = callbackFunction(callback);
+//reads callback in arg: takes two arguments and adds them, then returns the number
+//told to return this callback function with the resulting arguments given
+//runs callback function and returns result
 console.log(result);
+
+function countFinished() {
+    console.log('Finished counting!');
+}
+
+//pass a function, do the countdown on the side, and then when done, fire the callback
+setTimeout(countFinished, 10000);
+console.log('Start!');
+
+//callbacks are like a to-do list and a waiting list: it will do something, put it on the waiting list, then do the other to-do items. then, when the waiting list is done, it'll fire what's waiting there.
