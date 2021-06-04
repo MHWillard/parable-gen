@@ -14,8 +14,9 @@ db.once('open', function() {
 
 app.get('/', async (req, res) => {
     //build this as a promise:
-    //let person = await findPerson(Person);
-    
+    let person = await findPerson(Person).then(console.log(person));
+    //console.log(JSON.stringify(person));
+    //console.log(person.firstname)
     //Promise goes here:
 
     //console.log(person)

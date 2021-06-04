@@ -39,12 +39,18 @@ const Person = mongoose.model('person', personSchema);
 //});
 
 //look up document
+// an async function always returns a promise
 async function findPerson(Person) {
   await Person.findOne({age: 40}, function (err, person) {
-    if (err) return console.error(err);
-    console.log('Data:', person);
+    if (err) { 
+      console.error(err); 
+    } else {
+      console.log('Data:', person);
+    }
     return person;
   })
 }
+
+findPerson(Person).then(person => {console.log(person)});
 
 module.exports = {personSchema, Person, db, findPerson}
