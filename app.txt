@@ -117,7 +117,7 @@ NEXT: we want to approach our tracer bullet development: next is making the butt
 -installed yarn for dependencies
 -installed react-bootstrap; added button with CDN link to test styling
 -designed layout of application: definitely need to learn good website design principles
-NEXT: work on adding styling to Intro component
+NEXT: work on adding styling to Intro component; then add TS proper
 
 
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
