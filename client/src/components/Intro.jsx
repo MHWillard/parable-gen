@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 
 class Intro extends React.Component {
@@ -14,7 +15,7 @@ class Intro extends React.Component {
                 
                 <div className='generate-button'>
                     <form onSubmit={this.props.reArm}>
-                        <button type="submit">Generate</button>
+                        <Button variant="primary" type="submit">Generate</Button>
                     </form>
                 </div>
 

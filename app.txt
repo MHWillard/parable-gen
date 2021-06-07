@@ -115,15 +115,12 @@ NEXT: we want to approach our tracer bullet development: next is making the butt
 6/7
 -got CC photo to use for app
 -installed yarn for dependencies
-
-state = {generatedToggle: false}
-clickButton = setState{generatedToggle: true}
-introPageDiv: only displays when generatedToggle = false
-generatedPageDiv: only displays when generatedToggle = true
+-installed react-bootstrap; added button with CDN link to test styling
+-designed layout of application: definitely need to learn good website design principles
+NEXT: work on adding styling to Intro component
 
 
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
-
 
 NEXT STEPS:
 -plot out data model for app (read how to do this in NoSQL)
@@ -137,6 +134,10 @@ NEXT STEPS:
 -design better object/file/module structure for app
 -design frontend UI: splash screen, but when clicking button, it loads the generated parable
 
+TO LEARN:
+-TypeScript: review basics
+-good principles of HTML/CSS UI/frontend design
+
 RESOURCES:
 https://zellwk.com/blog/js-promises/
 https://zellwk.com/blog/async-await/
@@ -144,3 +145,5 @@ https://www.promisejs.org/
 https://nodejs.dev/learn/understanding-javascript-promises
 https://www.freecodecamp.org/news/how-to-build-a-todo-app-with-react-typescript-nodejs-and-mongodb/
 Eloquent JS, async JS chapter
+
+http://btholt.github.io/four-semesters-of-cs/
