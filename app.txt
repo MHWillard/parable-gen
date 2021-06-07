@@ -96,37 +96,51 @@ testing: function will run and log data it finds, but when trying to return it e
 -seems to be a callback issue since the whole thing is async; may have to write as a promise to get it down
 -might be worth hand copying tough code examples directly to understand
 -did callback.js practice to work through callbacks and try to grok them better
+-installed linter to assist
+-was able to get it to render by just calling the function directly
+NEXT: continue reviewing callback/promises basics
 
-router.get("/posts", async (req, res) => {
-	const posts = await Post.find()
-	res.send(posts)
-})
+6/5
+-tested full stack to ensure it was working
+-destructured incoming res.data object and set state to app
+-added additional state settings to render in component
+-roughed out next steps
+NEXT: we want to approach our tracer bullet development: next is making the button that creates the parable on clicking, then V1 of the actual app design
 
-router.post("/posts", async (req, res) => {
-	const post = new Post({
-		title: req.body.title,
-		content: req.body.content,
-	})
-	await post.save()
-	res.send(post)
-})
+6/6
+-outlined conditional rendering based on state
+-set toggle state and created new component to start page
+-set button to switch to "generated" parable on click
 
-const getTodos = async (req: Request, res: Response): Promise<void> => {
-  try {
-    const todos: ITodo[] = await Todo.find()
-    res.status(200).json({ todos })
-  } catch (error) {
-    throw error
-  }
-}
+6/7
+-got CC photo to use for app
+-installed yarn for dependencies
 
-https://www.freecodecamp.org/news/how-to-build-a-todo-app-with-react-typescript-nodejs-and-mongodb/
+state = {generatedToggle: false}
+clickButton = setState{generatedToggle: true}
+introPageDiv: only displays when generatedToggle = false
+generatedPageDiv: only displays when generatedToggle = true
+
+
+"Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
+
 
 NEXT STEPS:
 -plot out data model for app (read how to do this in NoSQL)
--create own Atlas collection
--define Schema/model for it
--test insert, delete, and read data
+// create own Atlas collection
+// define Schema/model for it
+// test insert, delete, and read data
 -set up procedure to read data, pass to app, and render to React (grab json/pass json/map json to render for each entry in component)
 -create better outline for app structure: views, DB connection, DB functions, etc.
 -set up scripts to start both backend and frontend at the same time
+-destructure props object to make component cleaner
+-design better object/file/module structure for app
+-design frontend UI: splash screen, but when clicking button, it loads the generated parable
+
+RESOURCES:
+https://zellwk.com/blog/js-promises/
+https://zellwk.com/blog/async-await/
+https://www.promisejs.org/
+https://nodejs.dev/learn/understanding-javascript-promises
+https://www.freecodecamp.org/news/how-to-build-a-todo-app-with-react-typescript-nodejs-and-mongodb/
+Eloquent JS, async JS chapter
