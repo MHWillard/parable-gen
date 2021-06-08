@@ -4,6 +4,7 @@ import Summary from './components/Summary';
 import Intro from './components/Intro';
 import axios from "axios";
 
+//supply CDN link
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //state must be set here and passed down into Start component as a prop

@@ -119,6 +119,9 @@ NEXT: we want to approach our tracer bullet development: next is making the butt
 -designed layout of application: definitely need to learn good website design principles
 NEXT: work on adding styling to Intro component; then add TS proper
 
+6/8
+
+
 
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
 
