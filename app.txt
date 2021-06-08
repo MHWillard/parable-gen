@@ -121,6 +121,8 @@ NEXT: work on adding styling to Intro component; then add TS proper
 
 6/8
 -added intial react-bootstrap styling to test
+-did styling on Intro component
+-added font in dedicated src/fonts folder and successfully added
 
 
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
