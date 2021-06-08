@@ -120,7 +120,7 @@ NEXT: we want to approach our tracer bullet development: next is making the butt
 NEXT: work on adding styling to Intro component; then add TS proper
 
 6/8
-
+-added intial react-bootstrap styling to test
 
 
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 

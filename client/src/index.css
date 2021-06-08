@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "EBGaramond";
+  src: local("EBGaramond"),
+    url("./fonts/EBGaramond-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* Container */
+.container {
+  font-family: "EBGaramond";
+}
+
+/* App Introduction */
+
+
+/* Generate Button */
+
+/* Intro Photo */

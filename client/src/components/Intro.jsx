@@ -12,9 +12,9 @@ class Intro extends React.Component {
                 <Row>
                     <Col>
                 <div className='app-introduction'>
-                    <p>The Business Parable Generator</p>
+                    <h1 className='app-intro-title'>The Business Parable Generator</h1>
                     <p>
-                        Instantly generate ideas for a pithy and award-winning business parable! Escape the drudgery of having to flesh out ideas and structure persuasive arguments by presenting banal topics in a patronizing ancedotal format performed by characters who only serve as mouthpieces to explain basic concepts. Quit thinking and start generating your next lifehack success with a click of a button!
+                        Instantly generate ideas for a pithy and award-winning business parable! Escape the drudgery of having to flesh out ideas and structure persuasive arguments by presenting banal topics in a patronizing anecdotal format performed by characters who only serve as mouthpieces to explain basic concepts. Quit thinking and start generating your next lifehack success with a click of a button!
                     </p>
                 </div>
 

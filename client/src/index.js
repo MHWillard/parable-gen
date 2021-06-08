@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './fonts/EBGaramond-VariableFont_wght.ttf';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
