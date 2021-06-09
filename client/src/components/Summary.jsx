@@ -14,7 +14,7 @@ class Summary extends React.Component {
                 
                 <div className='generate-button'>
                     <form onSubmit={this.props.reArm}>
-                        <button type="submit">Generate</button>
+                        <button type="submit">Generate Another</button>
                     </form>
                 </div>
 

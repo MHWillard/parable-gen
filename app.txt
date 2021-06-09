@@ -126,7 +126,8 @@ NEXT: work on adding styling to Intro component; then add TS proper
 
 6/9
 -worked on applying styling to get app in proper layout (copying from existing themes might be best to learn what to do)
-
+-able to get full-screen background color for app component
+-applied drop shadow, box shadow
 
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
 
