@@ -124,6 +124,9 @@ NEXT: work on adding styling to Intro component; then add TS proper
 -did styling on Intro component
 -added font in dedicated src/fonts folder and successfully added
 
+6/9
+-worked on applying styling to get app in proper layout (copying from existing themes might be best to learn what to do)
+
 
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
 

@@ -8,7 +8,7 @@ class Intro extends React.Component {
     render() {
         return(
             //make sure to destructure the incoming props and make the button appear and disappear this component
-            <Container>
+            <Container fluid className="app-container">
                 <Row>
                     <Col>
                 <div className='app-introduction'>

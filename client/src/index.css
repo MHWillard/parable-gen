@@ -20,8 +20,10 @@ code {
 }
 
 /* Container */
-.container {
+.app-container {
   font-family: "EBGaramond";
+  color: white;
+  background-color: #337dff;
 }
 
 /* App Introduction */
