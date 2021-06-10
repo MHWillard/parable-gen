@@ -23,14 +23,16 @@ code {
 /* Container */
 .app-container {
   font-family: "EBGaramond";
-  color: white;
   background-color: #337dff;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
     box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
+}
+
+.dialog-box {
+  background-color: #f7f1df;
 }
 
 /* App Introduction */
