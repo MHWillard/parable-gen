@@ -5,7 +5,6 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
 }
 
 code {
@@ -24,10 +23,8 @@ code {
 .app-container {
   font-family: "EBGaramond";
   background-color: #337dff;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+
     box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
 }
 
@@ -41,3 +38,10 @@ code {
 /* Generate Button */
 
 /* Intro Photo */
+.app-image {
+
+}
+
+/*   display: flex;
+  justify-content: center;
+  align-items: center; */

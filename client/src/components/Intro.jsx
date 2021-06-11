@@ -3,7 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
+import Media from 'react-bootstrap/Media';
 import test from '../test2.png'
 
 class Intro extends React.Component {
@@ -28,7 +29,7 @@ class Intro extends React.Component {
                     </Col>
 
                     <Col>
-                    <Image src={test} fluid />
+                    <Image src={test} className="app-image" fluid />
                     </Col>
 
                 </Row>
