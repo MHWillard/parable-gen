@@ -23,8 +23,10 @@ code {
 .app-container {
   font-family: "EBGaramond";
   background-color: #337dff;
-
-
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
 }
 
@@ -38,8 +40,9 @@ code {
 /* Generate Button */
 
 /* Intro Photo */
-.app-image {
-
+img {
+  height: 500px;
+  width: auto;
 }
 
 /*   display: flex;

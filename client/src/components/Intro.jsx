@@ -11,7 +11,7 @@ class Intro extends React.Component {
     render() {
         return(
             //make sure to destructure the incoming props and make the button appear and disappear this component
-            <Container fluid className="app-container">
+            <Container className="app-container">
                 <Row className="dialog-box">
                     <Col>
                 <div className='app-introduction'>
@@ -29,7 +29,7 @@ class Intro extends React.Component {
                     </Col>
 
                     <Col>
-                    <Image src={test} className="app-image" fluid />
+                    text
                     </Col>
 
                 </Row>
