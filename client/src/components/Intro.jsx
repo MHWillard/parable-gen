@@ -11,29 +11,31 @@ class Intro extends React.Component {
     render() {
         return(
             //make sure to destructure the incoming props and make the button appear and disappear this component
-            <Container className="app-container">
-                <Row className="dialog-box">
-                    <Col>
-                <div className='app-introduction'>
-                    <h1 className='app-intro-title'>The Business Parable Generator</h1>
-                    <p>
-                        Instantly generate ideas for a pithy and award-winning business parable. Escape the drudgery of having to flesh out ideas and structure persuasive arguments by presenting banal topics in a patronizing anecdotal format performed by characters who only serve as mouthpieces to explain basic concepts. Quit thinking and start generating your next lifehack success with a click of a button.
-                    </p>
+            <div className="app-container container">
+                <div className="row">
+                    <div className="col-8">
+                        <div className='app-introduction'>
+                            <h1 className='app-intro-title'>The Business Parable Generator</h1>
+                                <p>
+                                    Instantly generate ideas for a pithy and award-winning business parable. Escape the drudgery of having to flesh out ideas and structure persuasive arguments by presenting banal topics in a patronizing anecdotal format performed by characters who only serve as mouthpieces to explain basic concepts. Quit thinking and start generating your next lifehack success with a click of a button.
+                                </p>
+                        </div>
+
+                        <div className='generate-button'>
+                            <form onSubmit={this.props.reArm}>
+                                <Button variant="primary" type="submit">Generate</Button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div className="col-4">
+                        <div>
+                            <img src={test} className='app-photo img-fluid' />
+                        </div>
+                    </div>
                 </div>
 
-                <div className='generate-button'>
-                    <form onSubmit={this.props.reArm}>
-                        <Button variant="primary" type="submit">Generate</Button>
-                    </form>
-                </div>
-                    </Col>
-
-                    <Col>
-                    text
-                    </Col>
-
-                </Row>
-            </Container>
+            </div>
         );
     }
 }

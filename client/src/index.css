@@ -7,6 +7,10 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  box-shadow: inset 0 0 1rem rgb(0 0 0 / 20%);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -22,26 +26,24 @@ code {
 /* Container */
 .app-container {
   font-family: "EBGaramond";
-  background-color: #337dff;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
-}
-
-.dialog-box {
   background-color: #f7f1df;
+  border-radius: 15px;
 }
 
 /* App Introduction */
+.app-introduction {
+  text-align: left;
+}
 
+div.app-introduction h1.app-intro-title {
+  font-size: 20px;
+}
 
 /* Generate Button */
 
 /* Intro Photo */
 img {
-  height: 500px;
+  height: 70%;
   width: auto;
 }
 

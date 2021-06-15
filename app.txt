@@ -132,6 +132,13 @@ NEXT: work on adding styling to Intro component; then add TS proper
 6/11
 -still working on sizing image properly; will probably have to ask how to arrange layout I want
 
+6/12
+-worked on layout, but still challenging to get right to do what I want - definitely need to take CSS courses to understand it better
+
+6/14
+-removed React-bootstrap and went with pure bootstrap: layout is going better
+-moving to functionality for a while to restore momentum
+
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
 
 NEXT STEPS:
