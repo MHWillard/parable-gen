@@ -139,6 +139,19 @@ NEXT: work on adding styling to Intro component; then add TS proper
 -removed React-bootstrap and went with pure bootstrap: layout is going better
 -moving to functionality for a while to restore momentum
 
+
+-mongodb supports random document pulls: $sample
+
+-rough out general structure of parable and collections required
+-build collections with some sample data
+-create function to use $sample to grab document data
+-load into data object
+-pass data object to React
+-destructure object and load values into state
+
+QoL8675309
+
+
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
 
 NEXT STEPS:
