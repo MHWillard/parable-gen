@@ -139,6 +139,8 @@ NEXT: work on adding styling to Intro component; then add TS proper
 -removed React-bootstrap and went with pure bootstrap: layout is going better
 -moving to functionality for a while to restore momentum
 
+6/15
+
 
 -mongodb supports random document pulls: $sample
 
@@ -148,6 +150,8 @@ NEXT: work on adding styling to Intro component; then add TS proper
 -load into data object
 -pass data object to React
 -destructure object and load values into state
+
+-
 
 QoL8675309
 
