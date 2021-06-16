@@ -140,7 +140,9 @@ NEXT: work on adding styling to Intro component; then add TS proper
 -moving to functionality for a while to restore momentum
 
 6/15
+-worked on developing approach to randomizing document pulls
 
+6/16
 
 -mongodb supports random document pulls: $sample
 
@@ -151,7 +153,7 @@ NEXT: work on adding styling to Intro component; then add TS proper
 -pass data object to React
 -destructure object and load values into state
 
--
+
 
 QoL8675309
 
