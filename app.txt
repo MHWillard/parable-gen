@@ -143,6 +143,7 @@ NEXT: work on adding styling to Intro component; then add TS proper
 -worked on developing approach to randomizing document pulls
 
 6/16
+-worked out plan for document pulls: will create documents as sample size and then pull multiple times to create custom object, then push that to React
 
 -mongodb supports random document pulls: $sample
 

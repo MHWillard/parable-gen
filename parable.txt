@@ -1,3 +1,29 @@
-What would you do to achieve success in a rapidly changing world? Would you innovate...or desecrate?
+A successful pop-up Halloween store owner and mother to two and a half, Karen's life is turned upside down when she discovers her workers are underpaid, undermotivated, and tired of dressing up like clowns. Karen soon finds herself backed against a wall - losing money fast, with her children getting into alternative disco and a bomb rigged in her chest set to explode, Karen has no idea what to do and only two months to turn things around. But one day, she has a chance encounter with a wily plastic surgeon who imparts some unexpected advice. Through the 7 Habits of Highly Effective Surgeons, Karen may have a chance to save her failing pop-up Halloween store. Can Karen master her mentor's advice and turn her business around, or will it be Bye Bye Beauty Pie?
 
-A successful pop-up Halloween store owner and mother to two and a half, Karen thought she had it figured out. She thought all she had to do to ensure continued success was to keep selling grim reaper costumes and burn both ends of the candle for a little while longer, and then her financial and personal goals would be met. What she didn't count on was an unexpected turn of events
+"Oh No, I'm Dead!" is a timeless tale full of valuable insights and extremely common life advice, from the celebrated author of "Flush After You Go" and "When You're Driving, Drive". Order your copy today.
+
+
+
+COLLECTIONS/FIELDS
+name
+pronoun
+business
+desc1
+problem1
+problem2
+problem3
+con1
+con2
+timelimit
+mentor1
+mentor2
+advice
+title
+
+-make four/five total documents
+-randomly sample one of the documents but grab the particular field and load it into an object
+-pass that toal object onward
+
+NEXT:
+-add documents to MongoDB
+-create function to sample and pull from these fields
