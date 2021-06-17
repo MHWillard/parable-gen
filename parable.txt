@@ -8,6 +8,8 @@ COLLECTIONS/FIELDS
 name/pronoun
 -Karen, her
 -Sydney, him
+-Jack, him
+-Boris, her
 
 pronoun
 -she, her, hers
@@ -31,29 +33,42 @@ problem1
 -the workers are underpaid, undermotivated, and tired of dressing up like clowns
 -investing money into dogecoin wasn't the most sound financial move
 -sales are down, costs are up, and no one buys Beanie Babies anymore
--
 
 problem2
+the children flossing all day
+forced to sell one of the yachts
+the yearly Oktoberfest cancelled
+
 problem3
-con1
-con2
+-a bomb rigged to explode
+-the cup stacking world record on the line
+-Guy Fieri on the warpath
+
 timelimit
 -two months, six months, one year, until the next full moon
 
 mentor1
+-wily, paranoid, aggressive, mystical
+
 mentor2
+-stock broker, plastic surgeon, college professor, middle manager
+
 advice
+-the 7 Habits of Highly Effective Peons
+-the 2,329 Keys to Success
+-the Nappy Time Rule
+-the Trust Fund Factor
 
 title
 -Mark Your Territory
 -Flush After You Go
 -When You're Driving, Drive
--The 'Quit Being Fat' Book
+-The 'Just Stop Eating' Book
 -What's The Matter, Dum Dum?
 -I Can't Believe It's Not Happiness!
 -The One Minute Janitor
 -Here Comes Poverty!
--Jank - A Tale of Deliberate Confusion
+-Jank! A Tale of Deliberate Confusion
 -My Ex, and Other Erotica
 -The Big Flop
 -It's Not Your Fault The Sun Was In Your Eyes
