@@ -16,15 +16,30 @@ pronoun
 
 business
 pop-up Halloween store owner
+real estate tycoon
+personal injury lawyer
+factory middle manager
 
 
 desc1
+parent to two and a half children
+aggressive champion swimmer
+celebrated local rodeo clown
+volunteer soup kitchen despot
+
 problem1
+-the workers are underpaid, undermotivated, and tired of dressing up like clowns
+-investing money into dogecoin wasn't the most sound financial move
+-sales are down, costs are up, and no one buys Beanie Babies anymore
+-
+
 problem2
 problem3
 con1
 con2
 timelimit
+-two months, six months, one year, until the next full moon
+
 mentor1
 mentor2
 advice
