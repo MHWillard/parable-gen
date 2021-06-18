@@ -80,3 +80,16 @@ title
 NEXT:
 -add documents to MongoDB
 -create function to sample and pull from these fields
+
+
+db.inventory.insertMany([
+   { item: "journal", qty: 25, tags: ["blank", "red"], size: { h: 14, w: 21, uom: "cm" } },
+   { item: "mat", qty: 85, tags: ["gray"], size: { h: 27.9, w: 35.5, uom: "cm" } },
+   { item: "mousepad", qty: 25, tags: ["gel", "blue"], size: { h: 19, w: 22.85, uom: "cm" } }
+])
+
+db.people.insertMany([
+	{name: "Karen", pronoun: ["she","her","herself"], business:"pop-up Halloween store owner",  desc1:"parent to two and a half children", problem1:"the workers are underpaid, undermotivated, and tired of dressing up like clowns", problem2:"the children flossing all day", problem3:"a bomb rigged to explode", timelimit:"two months", mentor1:"wily", mentor2:"stock broker", advice:"the Trust Fund Factor", title1:"Mark Your Territory", title2:"Flush After You Go", title3:"When You're Driving, Drive"},
+	{name: "Sydney", pronoun: ["he","him","himself"], business:"personal injury lawyer",  desc1:"aggressive champion swimmer", problem1:"investing money into dogecoin wasn't the most sound financial move", problem2:"forced to sell one of the yachts", problem3:"the cup stacking world record on the line", timelimit:"one year", mentor1:"aggressive", mentor2:"college professor", advice:"the Nappy Time Rule", title1:"Mark Your Territory", title2:"Flush After You Go", title3:"When You're Driving, Drive"},
+	{name: "Karen", pronoun: ["she","her","herself"], business:"pop-up Halloween store owner",  desc1:"parent to two and a half children", problem1:"the workers are underpaid, undermotivated, and tired of dressing up like clowns", problem2:"the children flossing all day", problem3:"a bomb rigged to explode", timelimit:"two months", mentor1:"wily", mentor2:"stock broker", advice:"the Trust Fund Factor", title1:"Mark Your Territory", title2:"Flush After You Go", title3:"When You're Driving, Drive"},
+])
