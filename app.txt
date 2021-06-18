@@ -145,6 +145,10 @@ NEXT: work on adding styling to Intro component; then add TS proper
 6/16
 -worked out plan for document pulls: will create documents as sample size and then pull multiple times to create custom object, then push that to React
 
+6/18
+updated planned collections, installed mongo shell for practice to add documents
+NEXT: add docs, confirm, set about preparing doc access in app.js
+
 -mongodb supports random document pulls: $sample
 
 -rough out general structure of parable and collections required
