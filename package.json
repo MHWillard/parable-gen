@@ -16,6 +16,7 @@
     "mocha": "^8.4.0",
     "mongodb": "^3.6.9",
     "mongoose": "^5.12.11",
+    "mongoose-simple-random": "^0.4.1",
     "react-bootstrap": "^1.6.1",
     "typescript": "^4.2.4"
   },

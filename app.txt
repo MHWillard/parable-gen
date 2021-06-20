@@ -147,7 +147,14 @@ NEXT: work on adding styling to Intro component; then add TS proper
 
 6/18
 updated planned collections, installed mongo shell for practice to add documents
-NEXT: add docs, confirm, set about preparing doc access in app.js
+-docs added to mongodb atlas
+NEXT: set about preparing doc access in app.js
+
+6/19
+-worked on trying to do random documents through Mongoose; confirmed that what's pulled can easily be isolated and probably moved to another object
+
+6/20
+-set up random functionality to pull documents randomly; exploring ways to do that for each entry
 
 -mongodb supports random document pulls: $sample
 

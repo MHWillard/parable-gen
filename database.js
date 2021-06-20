@@ -2,6 +2,7 @@ require('dotenv').config()
 
 //Mongoose setup
 const mongoose = require('mongoose');
+const random = require('mongoose-simple-random');
 const uri = process.env.URI
 const {Schema} = mongoose;
 
@@ -25,6 +26,7 @@ const personSchema = new Schema({
   goal: String,
   moneygoal: Number
   });
+  personSchema.plugin(random);
 
 //arm model based on schema set
 const Person = mongoose.model('person', personSchema);
