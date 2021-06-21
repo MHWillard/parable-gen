@@ -30,7 +30,21 @@ app.get('/', async (req, res) => {
   const objectToSend: [];
   const person = RollDocument();
   function prepareObject() {
-    
+    addtoArray(person.name)
+    addtoArray(person.pronoun)
+    addtoArray(person.business)
+    addtoArray(person.desc1)
+    addtoArray(person.problem1)
+    addtoArray(person.problem2)
+    addtoArray(person.problem3)
+    addtoArray(person.name)
+    addtoArray(person.name)
+    addtoArray(person.name)
+    addtoArray(person.name)
+    addtoArray(person.name)
+    addtoArray(person.name)
+    addtoArray(person.name)
+
   }
   function loadObject(array) {
     for each i in preparedObject:

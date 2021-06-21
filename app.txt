@@ -156,6 +156,9 @@ NEXT: set about preparing doc access in app.js
 6/20
 -set up random functionality to pull documents randomly; exploring ways to do that for each entry
 
+6/21
+-working on psuedocode: trying to find nice way to roll docs and assign particular values to json
+
 -mongodb supports random document pulls: $sample
 
 -rough out general structure of parable and collections required
