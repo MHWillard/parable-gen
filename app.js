@@ -24,6 +24,21 @@ app.get('/', async (req, res) => {
   //assign chosen value to object to pass over
   // rolls 14 times: it needs to roll, get the appropriate value, then load it into the object to pass on
   //each entry should be its own mini-collection, then the object can just run the command to pull for each one and assign it to the key at the same time: key = vafunction();
+  //function: rolls for document as an object, then returns that object. The object being built to send to React is loaded via an array, and this array is loaded by the rolling for doc function with the result being assigned
+  /* 
+  function RollDocument();
+  const objectToSend: [];
+  const person = RollDocument();
+  function prepareObject() {
+    
+  }
+  function loadObject(array) {
+    for each i in preparedObject:
+      add i to empty key in objectToSend
+  }
+  const array = prepareObject();
+  loadObject(array);
+  */
 });
 
 app.listen(port, () => {
