@@ -3,6 +3,7 @@ require('dotenv').config()
 //Mongoose setup
 const mongoose = require('mongoose');
 const random = require('mongoose-simple-random');
+const _ = require('lodash');
 const uri = process.env.URI
 const {Schema} = mongoose;
 
@@ -42,14 +43,18 @@ const Person = mongoose.model('person', personSchema);
 
 //look up document
 // an async function always returns a promise
-async function findPerson(Person) {
-  const person = await Person.findOne({age: 40}).exec();
-    if (err) { 
-      console.error(err); 
-    } else {
-      console.log('Data:', person);
-    }
-    return person;
+
+async function rollDocument() {
+  const totalRecords = await Person.estimatedDocumentCount();
+  const rand = Math.floor(Math.random() * totalRecords);;
+  const person = await Person.findOne().skip(rand).lean();
+  return person;
 }
 
-module.exports = {personSchema, Person, db, findPerson}
+function prepareArray() {
+  //require Underscore.js for this
+  let workingArray = _.times(14, rollDocument());
+  return workingArray;
+}
+
+module.exports = {personSchema, Person, db, rollDocument, prepareArray}
