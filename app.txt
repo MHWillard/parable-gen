@@ -166,6 +166,15 @@ NEXT: set about preparing doc access in app.js
 6/24
 -set up lodash and made progress on successfully using async function to roll for documents; still working out iterating this 14 times to set up a nested array for what I can use to populate the final object
 
+6/25
+-still trying to workout async properly
+
+6/26
+-made progress working with async; plan to use total async function to create payload needed
+
+6/27
+-successfully rendered random person payload; next step is to load into React state and render it on page
+
 -mongodb supports random document pulls: $sample
 
 -rough out general structure of parable and collections required

@@ -51,10 +51,39 @@ async function rollDocument() {
   return person;
 }
 
-function prepareArray() {
-  //require Underscore.js for this
-  let workingArray = _.times(14, rollDocument());
+async function prepareArray() {
+  let workingArray = [];
+  for (let step = 0; step < 14; step++) {
+    let person = await rollDocument();
+    workingArray.push(person);
+  }
   return workingArray;
 }
 
-module.exports = {personSchema, Person, db, rollDocument, prepareArray}
+async function createRandomPerson(workingArray) {
+    let randomPerson = {
+      name: workingArray[0].name, 
+      pronoun: workingArray[1].pronoun,
+      business: workingArray[2].business,
+      desc1: workingArray[3].desc1,
+      problem1: workingArray[4].problem1,
+      problem2: workingArray[5].problem2,
+      problem3: workingArray[6].problem3,
+      timelimit: workingArray[7].timelimit,
+      mentor1: workingArray[8].mentor1,
+      mentor2: workingArray[9].mentor2,
+      advice: workingArray[10].advice,
+      title1: workingArray[11].title1,
+      title2: workingArray[12].title2,
+      title3: workingArray[13].title3
+    }
+    return randomPerson;
+}
+
+async function preparePersonPayload() {
+  let workingArray = await prepareArray();
+  let randomPerson = await createRandomPerson(workingArray);
+  return randomPerson;
+}
+
+module.exports = {personSchema, Person, db, rollDocument, prepareArray, createRandomPerson, preparePersonPayload}
