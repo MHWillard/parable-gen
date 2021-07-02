@@ -14,9 +14,8 @@ db.once('open', function() {
 });
 
 app.get('/', async (req, res) => {
-  const person = await rollDocument();
-  const randomPerson = await preparePersonPayload().then(randomPerson => console.log(randomPerson));
-  res.json(person);
+  const randomPerson = await preparePersonPayload();
+  res.json(randomPerson);
 });
 
 app.listen(port, () => {

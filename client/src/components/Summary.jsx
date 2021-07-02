@@ -2,13 +2,21 @@ import React from 'react'
 
 
 class Summary extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
+        const {name, business, desc1, problem1, problem2, problem3, timelimit, mentor1, mentor2, advice, title1, title2, title3} = this.props
+
         return(
-            //make sure to destructure the incoming props and make the button appear and disappear this component
             <div>
                 <div className='parable-summary'>
                 <p>
-                    {this.props.firstname} {this.props.lastname}, successful {this.props.age}-year-old {this.props.business} professional, thought they were doing well. But all of a sudden, a bad stroke of luck pushes {this.props.firstname} against the wall, with nowhere to run. With her {this.props.business} business on the line and children about to be shipped to Bosnia, {this.props.firstname} has the biggest challenge to take on: make {this.props.moneygoal} dollars. If {this.props.firstname} {this.props.problem}. With nowhere else to turn, {this.props.firstname} has to place all of her hopes into the words of a wandering mentor. Can {this.props.firstname} {this.props.goal}?
+                    A successful {business} and {desc1}, {name}'s life is turned upside down when she discovers {problem1}. {name} soon finds herself backed against a wall - losing money fast, {problem2} and {problem3}, {name} has no idea what to do and only {timelimit} to turn things around. But one day, she has a chance encounter with a {mentor1} {mentor2} who imparts some unexpected advice. Through {advice}, {name} may have a chance to save her failing business. Can {name} master her mentor's advice and turn things around, or is it too late?
+                </p>
+                <p>
+                    "{title1}" is a timeless tale full of valuable insights and extremely common life advice, from the celebrated author of "{title2}" and "{title3}". Order your copy today.
                 </p>
                 </div>
                 

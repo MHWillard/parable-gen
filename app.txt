@@ -175,6 +175,22 @@ NEXT: set about preparing doc access in app.js
 6/27
 -successfully rendered random person payload; next step is to load into React state and render it on page
 
+6/28
+-destructured incoming props, set up state to reflect accurate documents, loaded new parable into Summary component and tested generation
+
+6/29
+-button now automatically rolls documents from backend, generates parable, and pushes to page
+-installed View Rendered Source extension to get better sense of app architecture
+
+6/30
+replaced picture and worked on revamping facing design; trying to settle out opacity and chosen background image
+
+7/1
+working on design
+
+7/2
+using Bootstrap one-page example to help line up design and get app pushed out faster
+
 -mongodb supports random document pulls: $sample
 
 -rough out general structure of parable and collections required
@@ -188,8 +204,9 @@ NEXT: set about preparing doc access in app.js
 
 QoL8675309
 
-
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
+Photo by fauxels from Pexels
+
 
 NEXT STEPS:
 -plot out data model for app (read how to do this in NoSQL)
