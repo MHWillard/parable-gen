@@ -12,9 +12,17 @@ html {
 }
 
 html, body, #root, .App {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
   height: auto;
   width: auto;
-  background-image: url(../src/fauxels-pexels-office.jpg);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../src/fauxels-pexels-office.jpg);
   /*background-size: 100% auto;*/
   background-attachment: fixed;
   background-size: cover;
@@ -35,16 +43,8 @@ code {
 
 /* Container */
 
-.app-container::after {
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;  
-  
+.app-container {
+  display: flex;
 }
 
 div.app-introduction h1.app-intro-title {
@@ -70,9 +70,8 @@ img {
 
  /* App Introduction */
 .app-introduction {
-  color: white;
-  text-shadow: 3px 2px black;
-  font-size: 30px;
+color: white;
+
 }
 
 /* Main Content */
@@ -83,3 +82,24 @@ img {
 /*   display: flex;
   justify-content: center;
   align-items: center; */
+
+  .cover {
+    padding: 0 1.5rem;
+  }
+  .cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+  }
+
+  .mastfoot, .mastfoot a {
+    color: rgba(255, 255, 255, .75);
+  }
+
+  .cover-container {
+    max-width: 60em;
+  }
+
+  .masthead {
+    margin-bottom: 2rem;
+  }
+

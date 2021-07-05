@@ -191,15 +191,9 @@ working on design
 7/2
 using Bootstrap one-page example to help line up design and get app pushed out faster
 
--mongodb supports random document pulls: $sample
-
--rough out general structure of parable and collections required
--build collections with some sample data
--create function to use $sample to grab document data
--load into data object
--pass data object to React
--destructure object and load values into state
-
+7/4
+used Bootstrap example to finalize working design
+NEXT: push to Heroku and test live site: env values, test run with DB connection, confirm working then write README
 
 
 QoL8675309
@@ -207,29 +201,10 @@ QoL8675309
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
 Photo by fauxels from Pexels
 
+NEXT ACTIONS
+-set up Heroku space and repo
+-add backend to one Heroku and frontend to another
+-set env for both sides
+-test connection
 
-NEXT STEPS:
--plot out data model for app (read how to do this in NoSQL)
-// create own Atlas collection
-// define Schema/model for it
-// test insert, delete, and read data
--set up procedure to read data, pass to app, and render to React (grab json/pass json/map json to render for each entry in component)
--create better outline for app structure: views, DB connection, DB functions, etc.
--set up scripts to start both backend and frontend at the same time
--destructure props object to make component cleaner
--design better object/file/module structure for app
--design frontend UI: splash screen, but when clicking button, it loads the generated parable
-
-TO LEARN:
--TypeScript: review basics
--good principles of HTML/CSS UI/frontend design
-
-RESOURCES:
-https://zellwk.com/blog/js-promises/
-https://zellwk.com/blog/async-await/
-https://www.promisejs.org/
-https://nodejs.dev/learn/understanding-javascript-promises
-https://www.freecodecamp.org/news/how-to-build-a-todo-app-with-react-typescript-nodejs-and-mongodb/
-Eloquent JS, async JS chapter
-
-http://btholt.github.io/four-semesters-of-cs/
+https://www.freecodecamp.org/news/deploying-a-mern-application-using-mongodb-atlas-to-heroku/

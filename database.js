@@ -3,7 +3,6 @@ require('dotenv').config()
 //Mongoose setup
 const mongoose = require('mongoose');
 const random = require('mongoose-simple-random');
-const _ = require('lodash');
 const uri = process.env.URI
 const {Schema} = mongoose;
 
