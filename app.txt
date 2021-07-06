@@ -195,6 +195,8 @@ using Bootstrap one-page example to help line up design and get app pushed out f
 used Bootstrap example to finalize working design
 NEXT: push to Heroku and test live site: env values, test run with DB connection, confirm working then write README
 
+7/5
+read about Heroku implementation; NEXT ACTION is to push as is and see what goes wrong
 
 QoL8675309
 
