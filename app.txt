@@ -198,6 +198,10 @@ NEXT: push to Heroku and test live site: env values, test run with DB connection
 7/5
 read about Heroku implementation; NEXT ACTION is to push as is and see what goes wrong
 
+7/6
+-created heroku remote and pushed app to it
+-testing out heroku connection; can confirm it grabs server backend info
+
 QoL8675309
 
 "Corporate Photography - Businessman Portrait" by vanitystudiosphotography is licensed under CC BY 2.0 
