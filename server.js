@@ -14,7 +14,7 @@ db.once('open', function() {
   console.log('Connected');
 });
 
-app.get('/', async (req, res) => {
+app.get('/api', async (req, res) => {
   const randomPerson = await preparePersonPayload();
   res.json(randomPerson);
 });

@@ -35,7 +35,7 @@ class App extends React.Component {
 
 reArm(e) {
   e.preventDefault();
-  axios.get('http://localhost:5000').then(res => {
+  axios.get('/api').then(res => {
     //spread person object
     let {name, pronoun, business, desc1, problem1, problem2, problem3, timelimit, mentor1, mentor2, advice, title1, title2, title3} = res.data
 
