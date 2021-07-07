@@ -200,7 +200,7 @@ read about Heroku implementation; NEXT ACTION is to push as is and see what goes
 
 7/6
 -created heroku remote and pushed app to it
--testing out heroku connection; can confirm it grabs server backend info
+-testing out heroku connection; can confirm it grabs server backend info; still working out how to have main client React frontend for URL
 
 QoL8675309
 

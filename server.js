@@ -6,6 +6,7 @@ const cors = require('cors');
 const {db, preparePersonPayload} = require('./database')
 
 app.use(cors());
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
@@ -15,6 +16,10 @@ db.once('open', function() {
 app.get('/', async (req, res) => {
   const randomPerson = await preparePersonPayload();
   res.json(randomPerson);
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'client/build/index.html'));
 });
 
 app.listen(port, () => {
