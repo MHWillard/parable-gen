@@ -76,4 +76,4 @@ async function preparePersonPayload() {
   return randomPerson;
 }
 
-module.exports = {personSchema, Person, db, rollDocument, prepareArray, createRandomPerson, preparePersonPayload}
+module.exports = {db, preparePersonPayload}
