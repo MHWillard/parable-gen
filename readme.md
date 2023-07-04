@@ -3,8 +3,6 @@ This is a silly full-stack web application I created for my personal 100 Days of
 
 Nevertheless, this is the real deal. It runs on a MERN stack (MongoDB, Express, React, and Node). Documents hosted in a MongoDB Atlas instance are randomly rolled and pushed through Node into JSON format. The React frontend grabs the data, arranges the props, and presents them on the page. Despite such a simple task, this project was pretty challenging for me to make. I got stuck on the UI in particular - CSS flexbox/grid are definitely spots in my knowledge I want to improve. If you dig into the code you might see some of it's messy as I tried to work out how to arrange things. Still, I learned a lot about building a full stack web application, and I have ideas on how to improve.
 
-You can check out a live version of this app at https://stormy-brook-71740.herokuapp.com/.
-
 ## Installation
 1. Clone the repo.
 ``` sh
